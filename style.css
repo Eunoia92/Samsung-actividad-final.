@@ -1,0 +1,142 @@
+/* códigos css para la base */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+background: #242933;
+font-family: 'Open Sans', sans-serif;
+}
+
+p {
+display:block;
+width: 80%; 
+margin: 5px auto; 
+color: #838DAF;
+}
+
+h1 {
+  
+font-size: 30px;
+font-family: 'Open Sans', sans-serif;
+color: #9EB1DA;
+font-weight: 700;
+padding: 10px 0px 0px 35px;
+}
+
+/* códigos css caja contenedora */
+
+.container {
+font-weight: 500;
+font-family: calibri;
+color: #9EB1DA;
+padding: 10px;
+margin: 0 auto;
+width:400px;
+background: #2f3644;
+border-radius: 10px;
+border: 1px solid #3d4453;
+overflow: hidden;
+max-width: 80%;
+}
+
+
+/* códigos css para input, botón enviar */
+
+#button {
+display: block;
+font-size: 12px;
+text-transform: uppercase;
+height: 45px;
+line-height: 45px;
+background: #6c63ff;
+color: #eee;
+font-weight: 700;
+border-radius: 5px;
+cursor: pointer;
+letter-spacing: 5px;
+margin: 10px 20px 10px 20px;
+width: 90%;
+}
+
+#button:hover {
+box-shadow: 1px 1px 1px 1px #171717;
+  color: #171717;
+  transition-duration:1s;
+}
+
+span {
+margin: auto;
+color: #e74c3c;
+font-size: 12px;
+line-height: 16px;
+font-family: calibri;
+font-weight: 200;
+display: block;
+margin: 0px 0px 0px 25px;
+}
+
+
+.formresp {
+border: 2px solid #f0f0f0;
+border-radius: 4px;
+display: block;
+font-family: inherit;
+font-size: 14px;
+margin: 10px 20px 10px 20px;
+padding: 10px;
+width: 90%;
+}
+
+.formresp input:focus {
+outline: 0;
+border-color: #777;
+}
+
+
+.formcont {
+width: 100%;
+display: inline-block;
+padding: 5px;
+font-family: calibri;
+font-size: 14px;
+line-height: 18px;
+font-weight: 700;
+  
+}
+
+/****códigos para validar, borde e imagenes svg****/
+
+
+.datovalido {
+box-shadow: inset 0 0 0 1px #11B82E;
+border-radius: 5px;
+}
+
+.datoinvalido {
+box-shadow: inset 0 0 0 1px #e74c3c;
+border-radius: 5px;
+}
+
+.datovalidoicono {
+background-image:url('images/success-icon.svg');
+background-size: 18px;
+background-position-x: 300px;
+background-position-y: 8px;
+background-repeat:no-repeat;
+
+
+}
+
+.datoinvalidoicono {
+background-image:url('images/error-icon.svg');
+background-repeat:no-repeat; 
+background-size: 18px;
+background-position-x: 300px;
+background-position-y: 8px;
+background-repeat:no-repeat;
+}
+
+
+
